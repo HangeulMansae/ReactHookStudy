@@ -4,6 +4,8 @@ import UseStateExample from './UseStateExample';
 import UseEffectExample from './UseEffectExample';
 import UseReducerExample from './UseReducerExample';
 import UseMemoExample from './UseMemoExample';
+import UseCallbackParentExample from './UseCallbackParentExample';
+import UseRefExample from './UseRefExample';
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
         {/* <UseStateExample/> */}
         {/* <UseEffectExample/> */}
         {/* <UseReducerExample/> */}
-        <UseMemoExample/>
+        {/* <UseMemoExample/> */}
+        {/* <UseCallbackParentExample/> */}
+        <UseRefExample/>
       </header>
     </div>
   );
